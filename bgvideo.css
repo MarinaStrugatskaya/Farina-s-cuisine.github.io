@@ -1,0 +1,43 @@
+.bg-video {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bg-video video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effect {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.text-video {
+    letter-spacing: 3px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    z-index: 2;
+}
+
+.text-video>h5 {
+    letter-spacing: 6px;
+}

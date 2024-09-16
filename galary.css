@@ -1,0 +1,32 @@
+.galary-container {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-template-rows: repeat(9);
+
+}
+
+.picture {
+    margin: 3em;
+}
+
+.picture img {
+    width: 100%;
+}
+
+@media (max-width: 960px) {
+    .galary-container {
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        grid-template-rows: repeat(18);
+
+    }
+}
+
+@media (max-width: 600px) {
+    .galary-container {
+        display: grid;
+        grid-template-columns: repeat(1, 12fr);
+        grid-template-rows: repeat(36);
+
+    }
+}

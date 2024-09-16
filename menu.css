@@ -1,0 +1,26 @@
+h3 {
+    color: rgb(249, 210, 162);
+    text-align: center;
+}
+
+.mt-4 {
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(222, 219, 202);
+}
+
+.card-body h5 {
+    font-weight: bold;
+}
+
+.btn {
+    bottom: 1em;
+    left: 1em;
+    margin-block: 1em;
+    margin-inline: 4.5em;
+    font-weight: bolder;
+}
